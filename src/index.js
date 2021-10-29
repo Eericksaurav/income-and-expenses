@@ -28,9 +28,9 @@ app.use(methodOverride('newMethod'));
 
 /* routes */
 const loginRegisterroutes = require("./routes/loginRegisterRoutes");
-const profileRoutes = require("../src/routes/profileRoutes");
+const profilerRoutes = require("../src/routes/profileRoutes");
 app.use("/",loginRegisterroutes);
-app.use("/profile",profileRoutes);
+app.use("/profile",profilerRoutes);
 
 /* listening to the server */
 app.listen(port,()=>{

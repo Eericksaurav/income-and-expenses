@@ -1,0 +1,42 @@
+<!-- header -->
+{{> userProfileheaders}}
+    <!-- navbar -->
+   {{> userProfileNavbar}}
+    <!-- Main Area -->
+    <div class="container-fluid" id="app-space">
+        <div class="row content-area">
+            {{> userProfileSidebar }}
+            </div>
+            <div class="col-sm-10">
+                <!-- --------------------------------- -->
+                <nav class="navbar navbar-light bg-light" id="daily-section-header">
+                    <span class="h2" class="navbar-brand mb-0">Daily View </span>
+                </nav>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Select a date</span>
+                    <input type="text" class="form-control datepicker" id="dailyView-date" placeholder="Date ..." />
+                    <button type="button" class="btn btn-primary" id="search-day-expense">Go</button>
+                </div>
+                <!-- --------------------------------- -->
+                <div id="dailyExpenseDisplaySection">
+                    <div id="dayExpense">
+                        <table class="table table-sm rwd-table" id="dayExpenseTable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Category</th>
+                                    <th>More info</th>
+                                    <th>comments</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{> userProfileFooter}}
