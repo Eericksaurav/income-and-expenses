@@ -6,18 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js -g hbs,js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eericksaurav/income-and-expenses.git"
+    "url": "git+https://github.com/Eericksaurav/incomeexpenses.git"
   },
   "author": "saurav rijal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eericksaurav/income-and-expenses/issues"
+    "url": "https://github.com/Eericksaurav/incomeexpenses/issues"
   },
-  "homepage": "https://github.com/Eericksaurav/income-and-expenses#readme",
+  "homepage": "https://github.com/Eericksaurav/incomeexpenses#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.2",

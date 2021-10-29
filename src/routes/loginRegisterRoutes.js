@@ -10,6 +10,6 @@ router.route("/")
 
 router.route('/register')
     .get(loginCont.register)
-    .post(loginCont.register);
-    
+    .post(loginCont.registerPost);
+
 module.exports= router;
