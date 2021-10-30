@@ -10,7 +10,7 @@ require("../src/database/conn")
 /* initializing the paths */
 const templatePath = path.join(__dirname,'../template/views');
 const partialsPath = path.join(__dirname,'../template/partials');
-const staticPath = path.join(__dirname,"../public");
+const staticPath = path.join(__dirname,"../public/");
 
 /* configure express */
 app.use(express.urlencoded({extended:true}));
